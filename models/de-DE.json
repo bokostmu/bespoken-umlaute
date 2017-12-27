@@ -1,0 +1,34 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "test skill",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "TestIntent",
+          "slots": [
+            {
+              "name": "city",
+              "type": "AMAZON.DE_CITY"
+            }
+          ],
+          "samples": [
+            "test mit der stadt {city}",
+            "{city}"
+          ]
+        }
+      ]
+    }
+  }
+}

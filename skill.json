@@ -1,0 +1,21 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "name": "Test Skill"
+        }
+      },
+      "isAvailableWorldwide": true
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sslCertificateType": "Wildcard",
+          "uri": "{URL_TO_BESPOKEN}"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
